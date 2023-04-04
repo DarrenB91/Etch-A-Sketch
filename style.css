@@ -1,0 +1,37 @@
+.grid { 
+    display: flex;
+    flex-shrink: 0;
+    height: 500px;
+    width: 500px;
+    background-color: teal;
+
+}
+
+.square {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+body { 
+    display: flex;
+    flex-direction: column;
+}
+
+.title  {
+    display: flex;
+    align-self: center;
+}
+
+.main { 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.control-panel { 
+    display: flex;
+    flex-direction: column;
+}
