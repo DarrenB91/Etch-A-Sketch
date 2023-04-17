@@ -1,16 +1,12 @@
 .grid { 
-    display: flex;
-    flex-shrink: 0;
-    height: 500px;
+    display: grid;
     width: 500px;
-    background-color: teal;
-
+    height: 500px;
+    background-color: var(--secondary-light);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .square {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
     background-color: white;
     border: 1px solid black;
   }
